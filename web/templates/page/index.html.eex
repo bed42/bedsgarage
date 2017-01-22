@@ -1,0 +1,11 @@
+<!-- we set an initial unknown state, when the socket joins it will do an initial update
+    see web/static/socket.js and web/channels/status_channel -->
+
+<div class="jumbotron">
+  <img id = "img" src="images/spinner.gif">
+  <br>
+  <b>Status:</b><span id="status"> </span>
+  <br><br>
+  <div id="press-button" class="button">
+
+</div>
